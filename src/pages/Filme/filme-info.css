@@ -9,6 +9,8 @@
 
 .filme-info h1{
     margin: 14px 0;
+    text-align: center;
+    color: #7c137b;
 }
 
 .filme-info img{
@@ -21,11 +23,25 @@
 
 .filme-info h3{
     margin-top: 13px;
+    text-align: center;
+    color: #7c137b;
 }
 
 .filme-info span{
     margin: 8px 0;
+    text-align: center;
+    align-items: center;
+    color: #bd72bd;
 }
+
+.filme-info strong{
+    margin: 8px 0;
+    font-size: 30px;
+    color: #bd72bd;
+    text-align: center;
+    align-items: center;
+}
+
 
 .area-buttons button{
     margin-right: 12px;
@@ -38,22 +54,28 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.5s;
-    background-color: #aad6f0;
+    background-color: #7c137b;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
 }
 
+
 .area-buttons button:hover{
-    color: #ffffff;
-    background-color: #165cad;
+    color: #000000;
+    background-color: #ffd1ff;
 }
 
 .area-buttons a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: all 0.2s;
 }
 
 .area-buttons a:hover{
-    color: #ffffff;
+    color: #000000;
 }
 
 
