@@ -10,6 +10,9 @@ function Home(){
     //começa com array filmes vazio
     const [filmes, setFilmes] = useState([]);
 
+    //controlador de load, Começa sempre como true, após pegar todos os filmes, torna-se false e exibe os filmes
+    const [loading, setLoading] = useState(true);
+
     useEffect(()=>{
         //Toda vez que abrir, chama o useEffect
         async function loadFilmes(){
@@ -24,12 +27,23 @@ function Home(){
     
             //console.log(response.data.results.slice(0, 10));
             setFilmes(response.data.results.slice(0, 10))
+            setLoading(false)
         
         }
 
         loadFilmes();
+        setLoading(false); //após carregar os filmes, exibe
 
     }, [])
+
+    
+    if(loading){
+        return(
+            <div className="loading">
+                <h2>Carregando filmes...</h2>
+            </div>
+        )
+    }
 
     return(
         <div className="container">
@@ -49,3 +63,5 @@ function Home(){
 }
 
 export default Home;
+
+//not found - exibir que não existe

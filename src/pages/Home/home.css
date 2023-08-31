@@ -3,6 +3,14 @@
     margin: 14px auto;
 }
 
+.loading {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
 .lista-filmes article{
     width: 100%;
     background-color: #FFF;
@@ -35,7 +43,8 @@
     font-size: 24px;
     background-color: 'pink';
     text-decoration: none;
-    color: #000000;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    background-color: rgb(52, 113, 226);
+    color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }

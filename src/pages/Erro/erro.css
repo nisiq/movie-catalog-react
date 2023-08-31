@@ -1,0 +1,21 @@
+.not-found {
+    width: 100%;
+    height: calc(100vh - 60px); /*header 60px, calc para diminuir e pegar altura de fato da tela que sobrou*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-found h1{
+    font-size: 120px;
+}
+
+.not-found a{
+    text-decoration: none;
+    background-color: rgb(52, 113, 226);
+    color: #fff;
+    padding: 10px;
+    margin-top: 14px;
+    border-radius: 10px;
+}
