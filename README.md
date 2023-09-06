@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Movie Catalog React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project consuming the TMD API and displaying it on the web, with not only the name, image and synopsis of the film, but also the option to favorite, consult and delete your list of favorite films.
 
 ## Available Scripts
 
